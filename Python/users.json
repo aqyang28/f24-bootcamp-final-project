@@ -1,0 +1,16 @@
+[
+    {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "username": "johndoe",
+        "password": "securepassword",
+        "appointments": []
+    },
+    {
+        "name": "Alex Yang",
+        "email": "alexsemail@email.com",
+        "username": "ayang",
+        "password": "pwd",
+        "appointments": []
+    }
+]

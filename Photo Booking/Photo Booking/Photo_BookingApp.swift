@@ -11,7 +11,7 @@ import SwiftUI
 struct Photo_BookingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(numBookings: .constant(0))
         }
     }
 }

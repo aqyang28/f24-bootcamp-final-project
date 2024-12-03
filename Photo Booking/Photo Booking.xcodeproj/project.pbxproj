@@ -7,30 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5943D0B2CE424820082EBCE /* Photo_BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5943D0A2CE424820082EBCE /* Photo_BookingApp.swift */; };
 		E5943D0D2CE424820082EBCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5943D0C2CE424820082EBCE /* ContentView.swift */; };
 		E5943D0F2CE424830082EBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5943D0E2CE424830082EBCE /* Assets.xcassets */; };
 		E5943D122CE424830082EBCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5943D112CE424830082EBCE /* Preview Assets.xcassets */; };
+		E5B7D9972CFF9CFF00E4FAEA /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7D9962CFF9CFF00E4FAEA /* Tabs.swift */; };
+		E5B7D9992CFF9D2600E4FAEA /* PhotographerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7D9982CFF9D2600E4FAEA /* PhotographerProfile.swift */; };
+		E5B7D99B2CFF9D8A00E4FAEA /* PhotographerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7D99A2CFF9D8A00E4FAEA /* PhotographerList.swift */; };
+		E5B7D99D2CFF9DF200E4FAEA /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7D99C2CFF9DF200E4FAEA /* BookingView.swift */; };
 		E5BA71BC2CFB7B1C00F09230 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA71BB2CFB7B1C00F09230 /* LoginView.swift */; };
 		E5BA71BE2CFB7CFF00F09230 /* BeginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA71BD2CFB7CFF00F09230 /* BeginView.swift */; };
 		E5BA71C02CFB82E300F09230 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA71BF2CFB82E300F09230 /* SignUpView.swift */; };
 		E5BA71C22CFBD72000F09230 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA71C12CFBD72000F09230 /* HomeView.swift */; };
-		E5BA71C42CFC12B300F09230 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = E5BA71C32CFC12B300F09230 /* Users.json */; };
-		E5BA71C62CFC13C200F09230 /* test.py in Resources */ = {isa = PBXBuildFile; fileRef = E5BA71C52CFC13C200F09230 /* test.py */; };
+		E5D897032CFD13D600064FAF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897022CFD13D600064FAF /* UserService.swift */; };
+		E5D897072CFE1A4700064FAF /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897062CFE1A4700064FAF /* Users.swift */; };
+		E5D897092CFE527F00064FAF /* ConfirmationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897082CFE527F00064FAF /* ConfirmationScreen.swift */; };
+		E5D897142CFE6D7700064FAF /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897132CFE6D7700064FAF /* HomeTab.swift */; };
+		E5D897162CFE6E4900064FAF /* SearchTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897152CFE6E4900064FAF /* SearchTab.swift */; };
+		E5D897182CFE6E6A00064FAF /* BookingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897172CFE6E6A00064FAF /* BookingsTab.swift */; };
+		E5D8971A2CFE6E8A00064FAF /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897192CFE6E8A00064FAF /* ProfileTab.swift */; };
+		E5D8971C2CFEB02500064FAF /* Photographers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8971B2CFEB02500064FAF /* Photographers.swift */; };
+		E5D897222CFEE59700064FAF /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D897212CFEE59700064FAF /* Booking.swift */; };
+		E5F76D6E2CFC261D00810F18 /* Photo_BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F76D6D2CFC261D00810F18 /* Photo_BookingApp.swift */; };
+		E5F76D702CFC26ED00810F18 /* PhotographerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F76D6F2CFC26ED00810F18 /* PhotographerView.swift */; };
+		E5F76D742CFC271500810F18 /* SelectDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F76D732CFC271500810F18 /* SelectDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5943D072CE424820082EBCE /* Photo Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5943D0A2CE424820082EBCE /* Photo_BookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_BookingApp.swift; sourceTree = "<group>"; };
 		E5943D0C2CE424820082EBCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5943D0E2CE424830082EBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5943D112CE424830082EBCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5B7D9962CFF9CFF00E4FAEA /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		E5B7D9982CFF9D2600E4FAEA /* PhotographerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotographerProfile.swift; sourceTree = "<group>"; };
+		E5B7D99A2CFF9D8A00E4FAEA /* PhotographerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotographerList.swift; sourceTree = "<group>"; };
+		E5B7D99C2CFF9DF200E4FAEA /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		E5BA71BB2CFB7B1C00F09230 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E5BA71BD2CFB7CFF00F09230 /* BeginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginView.swift; sourceTree = "<group>"; };
 		E5BA71BF2CFB82E300F09230 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		E5BA71C12CFBD72000F09230 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		E5BA71C32CFC12B300F09230 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
-		E5BA71C52CFC13C200F09230 /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		E5D897022CFD13D600064FAF /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		E5D897062CFE1A4700064FAF /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E5D897082CFE527F00064FAF /* ConfirmationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationScreen.swift; sourceTree = "<group>"; };
+		E5D897132CFE6D7700064FAF /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		E5D897152CFE6E4900064FAF /* SearchTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTab.swift; sourceTree = "<group>"; };
+		E5D897172CFE6E6A00064FAF /* BookingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsTab.swift; sourceTree = "<group>"; };
+		E5D897192CFE6E8A00064FAF /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
+		E5D8971B2CFEB02500064FAF /* Photographers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photographers.swift; sourceTree = "<group>"; };
+		E5D897212CFEE59700064FAF /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		E5F76D6D2CFC261D00810F18 /* Photo_BookingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo_BookingApp.swift; sourceTree = "<group>"; };
+		E5F76D6F2CFC26ED00810F18 /* PhotographerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotographerView.swift; sourceTree = "<group>"; };
+		E5F76D732CFC271500810F18 /* SelectDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +73,6 @@
 		E5943CFE2CE424820082EBCE = {
 			isa = PBXGroup;
 			children = (
-				E5BA71C32CFC12B300F09230 /* Users.json */,
 				E5943D092CE424820082EBCE /* Photo Booking */,
 				E5943D082CE424820082EBCE /* Products */,
 			);
@@ -64,13 +89,13 @@
 		E5943D092CE424820082EBCE /* Photo Booking */ = {
 			isa = PBXGroup;
 			children = (
-				E5943D0A2CE424820082EBCE /* Photo_BookingApp.swift */,
-				E5943D0C2CE424820082EBCE /* ContentView.swift */,
-				E5BA71BD2CFB7CFF00F09230 /* BeginView.swift */,
-				E5BA71C52CFC13C200F09230 /* test.py */,
-				E5BA71BF2CFB82E300F09230 /* SignUpView.swift */,
-				E5BA71BB2CFB7B1C00F09230 /* LoginView.swift */,
-				E5BA71C12CFBD72000F09230 /* HomeView.swift */,
+				E5D8970B2CFE5E9A00064FAF /* Launching App */,
+				E5D8970A2CFE5E4D00064FAF /* Login + Signup */,
+				E5D897122CFE61C000064FAF /* Home Pages */,
+				E5D8971B2CFEB02500064FAF /* Photographers.swift */,
+				E5D897062CFE1A4700064FAF /* Users.swift */,
+				E5D897022CFD13D600064FAF /* UserService.swift */,
+				E5F76D6D2CFC261D00810F18 /* Photo_BookingApp.swift */,
 				E5943D0E2CE424830082EBCE /* Assets.xcassets */,
 				E5943D102CE424830082EBCE /* Preview Content */,
 			);
@@ -83,6 +108,76 @@
 				E5943D112CE424830082EBCE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5D8970A2CFE5E4D00064FAF /* Login + Signup */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA71BF2CFB82E300F09230 /* SignUpView.swift */,
+				E5BA71BB2CFB7B1C00F09230 /* LoginView.swift */,
+			);
+			path = "Login + Signup";
+			sourceTree = "<group>";
+		};
+		E5D8970B2CFE5E9A00064FAF /* Launching App */ = {
+			isa = PBXGroup;
+			children = (
+				E5943D0C2CE424820082EBCE /* ContentView.swift */,
+				E5BA71BD2CFB7CFF00F09230 /* BeginView.swift */,
+			);
+			path = "Launching App";
+			sourceTree = "<group>";
+		};
+		E5D897122CFE61C000064FAF /* Home Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA71C12CFBD72000F09230 /* HomeView.swift */,
+				E5D8971E2CFEE55500064FAF /* Home */,
+				E5D8971D2CFEE50800064FAF /* Search */,
+				E5D8971F2CFEE56100064FAF /* Bookings */,
+				E5D897202CFEE56700064FAF /* Profile */,
+			);
+			path = "Home Pages";
+			sourceTree = "<group>";
+		};
+		E5D8971D2CFEE50800064FAF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E5D897152CFE6E4900064FAF /* SearchTab.swift */,
+				E5B7D9982CFF9D2600E4FAEA /* PhotographerProfile.swift */,
+				E5B7D99A2CFF9D8A00E4FAEA /* PhotographerList.swift */,
+				E5F76D6F2CFC26ED00810F18 /* PhotographerView.swift */,
+				E5F76D732CFC271500810F18 /* SelectDate.swift */,
+				E5D897082CFE527F00064FAF /* ConfirmationScreen.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E5D8971E2CFEE55500064FAF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E5D897132CFE6D7700064FAF /* HomeTab.swift */,
+				E5B7D9962CFF9CFF00E4FAEA /* Tabs.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E5D8971F2CFEE56100064FAF /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				E5D897172CFE6E6A00064FAF /* BookingsTab.swift */,
+				E5B7D99C2CFF9DF200E4FAEA /* BookingView.swift */,
+				E5D897212CFEE59700064FAF /* Booking.swift */,
+			);
+			path = Bookings;
+			sourceTree = "<group>";
+		};
+		E5D897202CFEE56700064FAF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E5D897192CFE6E8A00064FAF /* ProfileTab.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5BA71C42CFC12B300F09230 /* Users.json in Resources */,
 				E5943D122CE424830082EBCE /* Preview Assets.xcassets in Resources */,
-				E5BA71C62CFC13C200F09230 /* test.py in Resources */,
 				E5943D0F2CE424830082EBCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,12 +250,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D897092CFE527F00064FAF /* ConfirmationScreen.swift in Sources */,
+				E5D897222CFEE59700064FAF /* Booking.swift in Sources */,
+				E5D8971A2CFE6E8A00064FAF /* ProfileTab.swift in Sources */,
+				E5D897032CFD13D600064FAF /* UserService.swift in Sources */,
+				E5F76D6E2CFC261D00810F18 /* Photo_BookingApp.swift in Sources */,
+				E5B7D9972CFF9CFF00E4FAEA /* Tabs.swift in Sources */,
 				E5BA71BC2CFB7B1C00F09230 /* LoginView.swift in Sources */,
+				E5D897182CFE6E6A00064FAF /* BookingsTab.swift in Sources */,
+				E5D8971C2CFEB02500064FAF /* Photographers.swift in Sources */,
+				E5F76D742CFC271500810F18 /* SelectDate.swift in Sources */,
+				E5B7D99B2CFF9D8A00E4FAEA /* PhotographerList.swift in Sources */,
+				E5D897142CFE6D7700064FAF /* HomeTab.swift in Sources */,
 				E5BA71C02CFB82E300F09230 /* SignUpView.swift in Sources */,
+				E5B7D9992CFF9D2600E4FAEA /* PhotographerProfile.swift in Sources */,
 				E5943D0D2CE424820082EBCE /* ContentView.swift in Sources */,
 				E5BA71C22CFBD72000F09230 /* HomeView.swift in Sources */,
 				E5BA71BE2CFB7CFF00F09230 /* BeginView.swift in Sources */,
-				E5943D0B2CE424820082EBCE /* Photo_BookingApp.swift in Sources */,
+				E5D897072CFE1A4700064FAF /* Users.swift in Sources */,
+				E5F76D702CFC26ED00810F18 /* PhotographerView.swift in Sources */,
+				E5B7D99D2CFF9DF200E4FAEA /* BookingView.swift in Sources */,
+				E5D897162CFE6E4900064FAF /* SearchTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
